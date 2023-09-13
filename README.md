@@ -22,21 +22,25 @@ The following Python modules are used in this project:
 Biopython: Used for calculating solvent accessibility using the SASA ShrakeRupley method. You can install it in the Conda environment using the command:
 
 ```bash
-
 conda install biopython
-pandas: Used for data manipulation and analysis. You can install it in the Conda environment using the command:
 ```
-bash
+pandas: Used for data manipulation and analysis. You can install it in the Conda environment using the command:
 
+```bash
 conda install pandas
+```
+
 numpy: Used for efficient numerical calculations. You can install it in the Conda environment using the command:
 
-
+```bash
 conda install numpy
+```
+
 matplotlib: Used for generating graphs, including the bar chart for comparing values. You can install it in the Conda environment using the command:
-
-
+```bash
 conda install matplotlib
+```
+
 argparse: Used for handling command-line arguments. It is included in Python's standard library, so no installation is necessary.
 
 #Execution Instructions
@@ -44,19 +48,21 @@ To run this program, follow these steps:
 
 Import the Conda environment with the required dependencies using the project.yml file:
 
-bash
-
+```bash
 conda env create -f project.yml
+```bash
+
 Activate the newly created Conda environment:
 
-bash
-
+```bash
 conda activate your_environment_name
+```
+
 Execute the main program main.py by specifying the PDB file name, the path to the PDB file, and the desired number of points on the sphere:
-
-bash
-
+```bash
 python main.py pdb_name pdb_path nb_points
+```
+
 Make sure to replace pdb_name, pdb_path, and nb_points with the appropriate values.
 
 The program will generate detailed results, including the solvent-accessible surface area in angstroms for each residue and the entire protein, as well as a comparison chart of values in the "results" folder. The percentage identity between the results will also be displayed.
