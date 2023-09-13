@@ -1,6 +1,6 @@
 
 # SOLVENT-ACCESSIBLE SURFACE AREA CALCULATION ON PROTEINS
-This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method.  The project consists of several Python programs that perform different steps in the calculation and comparison of results.
+This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method by placing a set of spheres around the protein and measuring their intersection with the solvent-accessible region. The project consists of several Python programs that perform different steps in the calculation and comparison of results.
 
 ## Included Programs
 The following programs are located in the src directory:
@@ -69,7 +69,7 @@ Activate the newly created Conda environment:
 conda activate env_project
 ```
 
-Execute the main program main.py by specifying the PDB file name, the path to the PDB file, and the desired number of points on the sphere :
+Execute the main program main.py by specifying the PDB protein name, the path to the PDB file, and the desired number of points on the sphere (the higher the number of points, the better the calculation precision will be) :
 ```bash
 python src/main.py pdb_name pdb_path nb_points
 ```
