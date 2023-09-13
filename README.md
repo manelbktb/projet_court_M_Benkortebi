@@ -27,26 +27,26 @@ The following Python modules are used in this project:
 Used for calculating solvent accessibility using the SASA ShrakeRupley method. You can install it in the Conda environment using the command:
 
 ```bash
-conda install biopython
+conda install -c conda-forge biopython
 ```
 ### pandas
 Used for data manipulation and analysis. 
 
 ```bash
-conda install pandas
+conda install -c conda-forge pandas
 ```
 
 ### numpy
 Used for efficient numerical calculations.
 
 ```bash
-conda install numpy
+conda install -c conda-forge numpy
 ```
 
 ### matplotlib
 Used for generating graphs, including the bar chart for comparing values. 
 ```bash
-conda install matplotlib
+conda install -c conda-forge matplotlib
 ```
 
 
