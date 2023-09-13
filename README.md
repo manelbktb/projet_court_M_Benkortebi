@@ -76,6 +76,7 @@ conda activate env_project
 ```
 
 Execute the main program main.py by specifying the PDB protein name, the path to the PDB file, and the desired number of points on the sphere (the higher the number of points, the better the calculation precision will be) :
+
 ```bash
 cd projet_court_M_Benkortebi
 python src/main.py pdb_name pdb_path nb_points
