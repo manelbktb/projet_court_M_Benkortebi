@@ -1,6 +1,5 @@
-# projet_court_M_Benkortebi
 
-## Calculation Project
+# Solvent-accessible surface area calculation on proteins
 This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method.  The project consists of several Python programs that perform different steps in the calculation and comparison of results.
 
 ## Included Programs
@@ -73,6 +72,6 @@ Make sure to replace pdb_name, pdb_path, and nb_points with the appropriate valu
 
 The program will generate detailed results, including the solvent-accessible surface area in angstroms for each residue and the entire protein, as well as a comparison chart of values in the "results" folder. The percentage identity between the results will also be displayed.
 
-Author
+## Author
 
-Manel BENKORTEBI
+***Manel Benkortebi***
