@@ -42,6 +42,7 @@ if __name__ == "__main__":
     # Extract parsed arguments
     pdb_name = args.pdb_name
     file_path = args.file_path
+    n_points = args.n_points
     if n_points < 2:
         raise ValueError("Number of points must be 2 or greater. Please choose a larger value for n_points.")
 
