@@ -81,6 +81,7 @@ Execute the main program main.py by specifying the PDB protein name, the path to
 cd projet_court_M_Benkortebi
 python src/main.py pdb_name pdb_path nb_points
 ```
+## Execution example
 
 Make sure to replace pdb_name, pdb_path, and nb_points with the appropriate values.
 
