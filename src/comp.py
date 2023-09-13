@@ -174,7 +174,7 @@ def comparison_identity(df_access, df_access_shrake):
     asa_tot_shrake =  diff_df['surface_accessible_shrake'].sum()
     identity_pourcent = (1-diff_tot/asa_tot_shrake)*100
     
-    return f"The percentage of identity of the asa between these two programs is{round(identity_pourcent,2)} %"
+    return f"The percentage of identity of the asa between these two programs is {round(identity_pourcent,2)} %"
 
 if __name__ == "__main__":
     import comp
