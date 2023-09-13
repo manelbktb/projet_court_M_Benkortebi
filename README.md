@@ -65,7 +65,7 @@ conda activate env_project
 
 Execute the main program main.py by specifying the PDB file name, the path to the PDB file, and the desired number of points on the sphere :
 ```bash
-python main.py pdb_name pdb_path nb_points
+python src/main.py pdb_name pdb_path nb_points
 ```
 
 Make sure to replace pdb_name, pdb_path, and nb_points with the appropriate values.
