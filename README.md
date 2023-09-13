@@ -1,7 +1,7 @@
 # projet_court_M_Benkortebi
 
 ## Calculation Project
-This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method. The project consists of several Python programs that perform different steps in the calculation and comparison of results.
+This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method.  The project consists of several Python programs that perform different steps in the calculation and comparison of results.
 
 ## Included Programs
 ### extract_coords.py
@@ -30,21 +30,21 @@ Used for calculating solvent accessibility using the SASA ShrakeRupley method. Y
 conda install biopython
 ```
 ### pandas
-Used for data manipulation and analysis. You can install it in the Conda environment using the command:
+Used for data manipulation and analysis. 
 
 ```bash
 conda install pandas
 ```
 
 ### numpy
-Used for efficient numerical calculations. You can install it in the Conda environment using the command:
+Used for efficient numerical calculations.
 
 ```bash
 conda install numpy
 ```
 
 ### matplotlib
-Used for generating graphs, including the bar chart for comparing values. You can install it in the Conda environment using the command:
+Used for generating graphs, including the bar chart for comparing values. 
 ```bash
 conda install matplotlib
 ```
@@ -64,7 +64,7 @@ Activate the newly created Conda environment:
 conda activate your_environment_name
 ```
 
-Execute the main program main.py by specifying the PDB file name, the path to the PDB file, and the desired number of points on the sphere:
+Execute the main program main.py by specifying the PDB file name, the path to the PDB file, and the desired number of points on the sphere :
 ```bash
 python main.py pdb_name pdb_path nb_points
 ```
