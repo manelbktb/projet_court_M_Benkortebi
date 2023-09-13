@@ -3,6 +3,7 @@
 This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method.  The project consists of several Python programs that perform different steps in the calculation and comparison of results.
 
 ## Included Programs
+The following programs are located in the src directory:
 ### extract_coords.py
 This program extracts information and coordinates of atoms from the PDB file.
 
@@ -15,7 +16,7 @@ This program uses the Biopython module (Bio.PDB.SASA) to calculate solvent acces
 ### main.py
 This main script executes the entire process. It outputs the solvent-accessible surface area in angstroms for each residue using the accessibility.py program, as well as this value for the entire protein. It also executes the calculation of solvent-accessible surface area in angstroms for each residue using the Biopython program, along with the value for the entire protein. The script saves the comparison chart of values in a folder named "results" and displays the percentage identity between the results of both methods.
 
-## Used Modules and Environment
+## Requirements
 
 ***Python Version:*** Python 3
 
