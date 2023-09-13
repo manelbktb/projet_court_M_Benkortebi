@@ -52,6 +52,10 @@ conda install -c conda-forge matplotlib
 
 ## Execution Instructions
 To run this program, follow these steps:
+Clond the repository :
+```bash
+git clone https://github.com/hocinebib/Projet_Court_H-H.git
+```
 
 Import the Conda environment with the required dependencies using the project.yml file:
 
