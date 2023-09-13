@@ -22,14 +22,13 @@ This main script executes the entire process. It outputs the solvent-accessible 
 
 ***Operating System:*** Unix
 
-The following Python modules are used in this project:
 ## Creating conda environment
 
 ```bash
 conda create -n proj_court_env
 activate proj_court_env
 ```
-
+The following Python modules are used in this project:
 ### Biopython
 Used for calculating solvent accessibility using the SASA ShrakeRupley method. You can install it in the Conda environment using the command:
 
@@ -55,8 +54,11 @@ Used for generating graphs, including the bar chart for comparing values.
 ```bash
 conda install -c conda-forge matplotlib
 ```
-
-
+### argparse
+Used for handling command-line arguments.
+```bash
+conda install -c conda-forge configargparse
+```
 ## Execution Instructions
 To run this program, follow these steps:
 Clond the repository :
