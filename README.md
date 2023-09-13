@@ -1,9 +1,9 @@
-## projet_court_M_Benkortebi
+# projet_court_M_Benkortebi
 
-#Calculation Project
+## Calculation Project
 This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method. The project consists of several Python programs that perform different steps in the calculation and comparison of results.
 
-#Included Programs
+## Included Programs
 extract_coords.py: This program extracts information and coordinates of atoms from the PDB file.
 
 accessibility.py: This program calculates solvent accessibility for each residue of the protein using a specific method.
@@ -12,7 +12,7 @@ comp.py: This program uses the Biopython module (SASA ShrakeRupley) to calculate
 
 main.py: This main script executes the entire process. It outputs the solvent-accessible surface area in angstroms for each residue using the accessibility.py program, as well as this value for the entire protein. It also executes the calculation of solvent-accessible surface area in angstroms for each residue using the Biopython program, along with the value for the entire protein. The script saves the comparison chart of values in a folder named "results" and displays the percentage identity between the results of both methods.
 
-##Used Modules and Environment
+## Used Modules and Environment
 
 Python Version: Python 3
 Operating System: Unix
@@ -43,7 +43,7 @@ conda install matplotlib
 
 argparse: Used for handling command-line arguments. It is included in Python's standard library, so no installation is necessary.
 
-#Execution Instructions
+## Execution Instructions
 To run this program, follow these steps:
 
 Import the Conda environment with the required dependencies using the project.yml file:
