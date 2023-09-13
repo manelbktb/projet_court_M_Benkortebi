@@ -81,13 +81,14 @@ Execute the main program main.py by specifying the PDB protein name, the path to
 cd projet_court_M_Benkortebi
 python src/main.py pdb_name pdb_path nb_points
 ```
+Make sure to replace pdb_name, pdb_path, and nb_points with the appropriate values.
+
 ## Execution example
 
 ```bash
 cd projet_court_M_Benkortebi
 python src/main.py 1b0q data/1b0q.pdb 100
 ```
-Make sure to replace pdb_name, pdb_path, and nb_points with the appropriate values.
 
 The program will generate detailed results, including the solvent-accessible surface area in angstroms for each residue and the entire protein, as well as a comparison chart of values in the "results" folder. The percentage identity between the results will also be displayed.
 
