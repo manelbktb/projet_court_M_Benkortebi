@@ -12,7 +12,11 @@ comp.py: This program uses the Biopython module (SASA ShrakeRupley) to calculate
 
 main.py: This main script executes the entire process. It outputs the solvent-accessible surface area in angstroms for each residue using the accessibility.py program, as well as this value for the entire protein. It also executes the calculation of solvent-accessible surface area in angstroms for each residue using the Biopython program, along with the value for the entire protein. The script saves the comparison chart of values in a folder named "results" and displays the percentage identity between the results of both methods.
 
-#Used Modules
+##Used Modules and Environment
+
+Python Version: Python 3
+Operating System: Unix
+
 The following Python modules are used in this project:
 
 Biopython: Used for calculating solvent accessibility using the SASA ShrakeRupley method. You can install it in the Conda environment using the command:
