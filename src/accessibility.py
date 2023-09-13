@@ -116,9 +116,10 @@ def distribute_points_on_sphere(num_points, radius):
     golden_angle = np.pi * (3.0 - np.sqrt(5.0))  # Golden angle
     
     for i in range(num_points):
-        z = 1.0 - (i / float(num_points - 1)) * 2  # Varying height
-        radius_at_height = np.sqrt(1.0 - z * z) * radius
+        z = 1.0 - (i / float(num_points - 1)) * 2  
+        radius_at_height = np.sqrt(1.0 - z * z) * radius # Radii at each height step of the unit circle. 
         theta = golden_angle * i  # Angle around the z-axis
+        # Determine where xy fall on the sphere, given the azimuthal and polar angles
         x = np.cos(theta) * radius_at_height
         y = np.sin(theta) * radius_at_height
         points.append((x, y, z * radius))
