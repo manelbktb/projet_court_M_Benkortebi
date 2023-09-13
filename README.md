@@ -50,10 +50,9 @@ Import the Conda environment with the required dependencies using the project.ym
 
 ```bash
 conda env create -f project.yml
-```bash
+```
 
 Activate the newly created Conda environment:
-
 ```bash
 conda activate your_environment_name
 ```
