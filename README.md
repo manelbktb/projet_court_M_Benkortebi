@@ -55,12 +55,12 @@ To run this program, follow these steps:
 Import the Conda environment with the required dependencies using the project.yml file:
 
 ```bash
-conda env create -f project.yml
+conda env create -f env_project.yml
 ```
 
 Activate the newly created Conda environment:
 ```bash
-conda activate your_environment_name
+conda activate env_project
 ```
 
 Execute the main program main.py by specifying the PDB file name, the path to the PDB file, and the desired number of points on the sphere :
