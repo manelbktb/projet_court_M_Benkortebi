@@ -56,7 +56,7 @@ if __name__ == "__main__":
     asa = access.solvent_accessibility(df_atoms, n_points)
     print(asa)
     
-    print(f"\nWith our program, the surface accessible to the solvent of the protein is {round(asa['Surface_accessible'].sum(),2)} Å.\n")
+    print(f"\nWith our program, the surface accessible to the solvent of the protein is {round(asa['surface_accessible'].sum(),2)} Å.\n")
     
     print("Step 3 : Calculating accessible surface of residus and protein using the ShrakeRupley method\n")
    
