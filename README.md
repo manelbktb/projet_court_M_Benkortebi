@@ -17,8 +17,9 @@ This main script executes the entire process. It outputs the solvent-accessible 
 
 ## Used Modules and Environment
 
-Python Version: Python 3
-Operating System: Unix
+***Python Version:*** Python 3
+
+***Operating System:*** Unix
 
 The following Python modules are used in this project:
 
