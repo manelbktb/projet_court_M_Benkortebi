@@ -4,16 +4,16 @@
 This project aims to calculate the solvent-accessible surface area (SASA) of residues and the entire protein from a PDB file using the Shrake and Rupley method. The project consists of several Python programs that perform different steps in the calculation and comparison of results.
 
 ## Included Programs
-# extract_coords.py
+### extract_coords.py
 This program extracts information and coordinates of atoms from the PDB file.
 
-# accessibility.py
+### accessibility.py
 This program calculates solvent accessibility for each residue of the protein using a specific method.
 
-# comp.py
+### comp.py
 This program uses the Biopython module (Bio.PDB.SASA) to calculate solvent accessibility and compares the results to values obtained with the accessibility.py program. It also generates a bar chart for visualizing the comparison of values and calculates the percentage identity between the two programs.
 
-# main.py
+### main.py
 This main script executes the entire process. It outputs the solvent-accessible surface area in angstroms for each residue using the accessibility.py program, as well as this value for the entire protein. It also executes the calculation of solvent-accessible surface area in angstroms for each residue using the Biopython program, along with the value for the entire protein. The script saves the comparison chart of values in a folder named "results" and displays the percentage identity between the results of both methods.
 
 ## Used Modules and Environment
@@ -23,27 +23,27 @@ Operating System: Unix
 
 The following Python modules are used in this project:
 
-# Biopython
+### Biopython
 Used for calculating solvent accessibility using the SASA ShrakeRupley method. You can install it in the Conda environment using the command:
 
 ```bash
 conda install biopython
 ```
-# pandas
+### pandas
 Used for data manipulation and analysis. You can install it in the Conda environment using the command:
 
 ```bash
 conda install pandas
 ```
 
-# numpy
+### numpy
 Used for efficient numerical calculations. You can install it in the Conda environment using the command:
 
 ```bash
 conda install numpy
 ```
 
-# matplotlib
+### matplotlib
 Used for generating graphs, including the bar chart for comparing values. You can install it in the Conda environment using the command:
 ```bash
 conda install matplotlib
